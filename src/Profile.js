@@ -31,7 +31,7 @@ export default function Profile() {
         setFormData({ ...formData, [e.target.name]: e.target.value });
       };
       
-      const handleInstaMessage = () => {
+      const handleSendMessage = () => {
         const { username, phone, email, message } = formData;
         const instagramUser = "grts_6";
     
@@ -40,17 +40,9 @@ export default function Profile() {
         
         // Open Instagram in a new tab
         window.open(`https://www.instagram.com/${instagramUser}/`, "_blank");
-      };
-
-      const handleWhatsAppMessage = () => {
-        const { username, phone, email, message } = formData;
-        const instagramUser = "grts_6";
     
-        // Format the message
-        const formattedMessage = `Hello!%0A%0AName: ${username}%0APhone: ${phone}%0AEmail: ${email}%0AMessage: ${message}`;
-        
         // Or use WhatsApp (alternative)
-        window.open(`https://wa.me/?text=${formattedMessage}`, "_blank");
+        //window.open(`https://wa.me/?text=${formattedMessage}`, "_blank");
       };
 
   const skills = [
@@ -234,10 +226,8 @@ export default function Profile() {
           <input type="number" name="email" placeholder="PhoneNumber" className="input-field" onChange={handleChange}/>
           <input type="email" name="message" placeholder="Email Address" className="input-field" onChange={handleChange}/>
           <textarea placeholder="Type your Message Here" className="input-field" onChange={handleChange} />
-          <button onClick={handleInstaMessage} className="send-message-btn">Send Insta Message</button>
-          <div className="input-field" />
-          <button onClick={handleWhatsAppMessage} className="send-message-btn">Send WhatsApp Message</button>
-        </div >
+          <button onClick={handleSendMessage} className="send-message-btn">Send Message</button>
+        </div>
       </section>
 
       {/* Footer Section */}

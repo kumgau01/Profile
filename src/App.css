@@ -337,8 +337,6 @@
 }
 
 .leftButton {
-  width: 10rem; /* Equivalent to w-40 */
-  height: 18rem; /* Equivalent to h-40 */
   position: absolute; /* Equivalent to absolute */
   left: 0; /* Positions the button at the left */
   background-color: #4b5563; /* Equivalent to bg-gray-600 */
@@ -355,8 +353,6 @@
 }
 
 .rightButton {
-  width: 10rem; /* Equivalent to w-40 */
-  height: 18rem; /* Equivalent to h-40 */
   position: absolute; /* Ensures absolute positioning */
   right: 0; /* Pushes the button to the right */
   background-color: #4b5563; /* bg-gray-600 */
