@@ -110,7 +110,7 @@
 .heading {
   font-size: 2.25rem; /* Equivalent to text-4xl */
   font-weight: bold; /* Equivalent to font-bold */
-  color: #1a202c; /* Default dark gray, adjust as needed */
+  color: #f3f1ed; /* Default dark gray, adjust as needed */
   text-align: center; /* Center alignment */
 }
 
@@ -336,7 +336,9 @@
   font-weight: 600; /* Equivalent to font-semibold */
 }
 
-.button {
+.leftButton {
+  width: 10rem; /* Equivalent to w-40 */
+  height: 18rem; /* Equivalent to h-40 */
   position: absolute; /* Equivalent to absolute */
   left: 0; /* Positions the button at the left */
   background-color: #4b5563; /* Equivalent to bg-gray-600 */
@@ -351,6 +353,25 @@
 .prev-button:hover {
   background-color: #374151; /* Darker gray on hover */
 }
+
+.rightButton {
+  width: 10rem; /* Equivalent to w-40 */
+  height: 18rem; /* Equivalent to h-40 */
+  position: absolute; /* Ensures absolute positioning */
+  right: 0; /* Pushes the button to the right */
+  background-color: #4b5563; /* bg-gray-600 */
+  padding: 0.5rem; /* Equivalent to p-2 */
+  border-radius: 9999px; /* Makes it circular */
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.next-button:hover {
+  background-color: #374151; /* Darker gray on hover */
+}
+
 
 .grid-layout {
   display: grid; /* Enables grid layout */
@@ -462,5 +483,24 @@
 .linkedin-icon:hover {
   color: #004182; /* Darker blue on hover */
   transform: scale(1.1); /* Slight zoom effect on hover */
+}
+
+.image-button {
+  width: 25rem; /* Equivalent to w-40 */
+  height: 15rem; /* Equivalent to h-40 */
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out; /* Equivalent to transition-transform */
+  border-radius: 0.5rem; /* Equivalent to rounded-lg */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Equivalent to shadow-lg */
+}
+
+.image-button:hover {
+  transform: scale(1.1); /* Equivalent to hover:scale-110 */
+}
+
+.flex-container {
+  display: flex; /* Equivalent to flex */
+  justify-content: center; /* Equivalent to justify-center */
+  align-items: center; /* Equivalent to items-center */
 }
 
