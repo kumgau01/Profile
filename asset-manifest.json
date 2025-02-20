@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/kumgau01/Profile/static/css/main.3374cea3.css",
-    "main.js": "/kumgau01/Profile/static/js/main.66f3624e.js",
-    "static/js/453.d73b0aaa.chunk.js": "/kumgau01/Profile/static/js/453.d73b0aaa.chunk.js",
-    "static/media/Gaurav Kumar.jpg": "/kumgau01/Profile/static/media/Gaurav Kumar.b0668dee8b604854270b.jpg",
-    "static/media/GAURAV KUMAR.pdf": "/kumgau01/Profile/static/media/GAURAV KUMAR.088e802251a0dbbb6a29.pdf",
-    "static/media/logo.svg": "/kumgau01/Profile/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/kumgau01/Profile/index.html",
-    "main.3374cea3.css.map": "/kumgau01/Profile/static/css/main.3374cea3.css.map",
-    "main.66f3624e.js.map": "/kumgau01/Profile/static/js/main.66f3624e.js.map",
-    "453.d73b0aaa.chunk.js.map": "/kumgau01/Profile/static/js/453.d73b0aaa.chunk.js.map"
+    "main.css": "/Profile/static/css/main.3374cea3.css",
+    "main.js": "/Profile/static/js/main.a19411c2.js",
+    "static/js/453.d73b0aaa.chunk.js": "/Profile/static/js/453.d73b0aaa.chunk.js",
+    "static/media/Gaurav Kumar.jpg": "/Profile/static/media/Gaurav Kumar.b0668dee8b604854270b.jpg",
+    "static/media/GAURAV KUMAR.pdf": "/Profile/static/media/GAURAV KUMAR.088e802251a0dbbb6a29.pdf",
+    "static/media/logo.svg": "/Profile/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Profile/index.html",
+    "main.3374cea3.css.map": "/Profile/static/css/main.3374cea3.css.map",
+    "main.a19411c2.js.map": "/Profile/static/js/main.a19411c2.js.map",
+    "453.d73b0aaa.chunk.js.map": "/Profile/static/js/453.d73b0aaa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3374cea3.css",
-    "static/js/main.66f3624e.js"
+    "static/js/main.a19411c2.js"
   ]
 }
