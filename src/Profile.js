@@ -72,10 +72,10 @@ export default function Profile() {
 
   const recentWork = [
     { title: "Profile", link: "https://github.com/kumgau01/Profile", imageUrl: "https://github.com/shkkr01/PortfolioWebsite/blob/main/assets/Portfolio-Desk.jpg?raw=true" },
-    { title: "Chat-Bot", link: "https://github.com/kumgau01/Gemini-Chat-Application", imageUrl: "https://files.oaiusercontent.com/file-H6s5eS9o24ccnVR9WGNk2h?se=2025-02-20T18%3A37%3A45Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Df1d0f557-186b-4400-9580-bf1bfd29a123.webp&sig=BdQ3QS4SgDbxJhOI6uxQHtmVmQ5O%2BdrYo5G0vhfuTXs%3D" },
-    { title: "Learn-Git", link: "https://github.com/kumgau01/Lets-Learn-Git", imageUrl: "https://files.oaiusercontent.com/file-UtQC3RkXJ92edorRFNadHo?se=2025-02-20T18%3A38%3A51Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D76e21585-b542-47f5-a4ce-1b54fa221171.webp&sig=cNHyEg5m7crVenydv1D%2BXq0mEh6ObPRVHut6z2oSnwY%3D" },
-    { title: "Hotel-Booking", link: "https://github.com/kumgau01/Hotel-Booking", imageUrl: "https://files.oaiusercontent.com/file-Ab6UVpLUFhZUTC5ih75iV8?se=2025-02-20T18%3A40%3A27Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D451dfda5-f62b-435e-88ce-450a7d9092f7.webp&sig=HjSRhE5sJRkfqyBkXgzv0rsEML9wmiX62k29aJI/q90%3D"},
-    { title: "E-commerce-website", link: "https://github.com/kumgau01/E-commerce-website", imageUrl: "https://files.oaiusercontent.com/file-EEM5ocrv5oF9i9N7ogD9oP?se=2025-02-20T19%3A11%3A49Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Daabe22d6-875e-4516-82d2-eaca85c08ffc.webp&sig=n0eUnPKJg%2BsNo6n466%2BgmITBUcd24lVvtUOGuzB0fPo%3D"}
+    { title: "Chat-Bot", link: "https://github.com/kumgau01/Gemini-Chat-Application", imageUrl: "https://png.pngtree.com/png-vector/20220707/ourmid/pngtree-chatbot-robot-concept-chat-bot-png-image_5632381.png" },
+    { title: "Learn-Git", link: "https://github.com/kumgau01/Lets-Learn-Git", imageUrl: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DUSjZcfj8yxE&psig=AOvVaw3RI4ZEN9g1rsVsd8q3pkGs&ust=1740195070998000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOiUmvzp04sDFQAAAAAdAAAAABAE" },
+    { title: "Hotel-Booking", link: "https://github.com/kumgau01/Hotel-Booking", imageUrl: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.justdial.com%2FSrivilliputtur%2FHotel-Boarding-Lodging%2F9999P4563-4563-181128060111-X1W1_BZDET%2Fphotos&psig=AOvVaw3O76Sp9dOMegHxRjZJOKQl&ust=1740195121145000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKCMqpbq04sDFQAAAAAdAAAAABAE"},
+    { title: "E-commerce-website", link: "https://github.com/kumgau01/E-commerce-website", imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa2n90sG3uFr6PSNqKOwF14Ye9GEXK1ceg_g&s"}
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
